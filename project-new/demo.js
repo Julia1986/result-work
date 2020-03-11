@@ -59,15 +59,10 @@ function on() {
     document.getElementByClassName("overlay").style.display = "block";
 }
 
-function off() {
-    document.getElementByClassName("overlay").style.display = "none";
-}
+$('#row-bar li a').click(function(){
+	$('#menu-checkbox').click();
+});
 
 $('.overlay #footer').click(function(){
   $(".overlay").css("opacity;", "0;");
 });
-
-$('#row-bar').click(function(){
-  $('.overlay').hide(300);
-});
-  
