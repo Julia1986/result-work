@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Trade+Winds&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Georgia;
+}
+#header {
+	background: #a1a1a1;
+	text-align: left;
+	border-bottom: 1px solid #292929;
+} 
+#header .container {
+	border-bottom: 2px solid #292929;
+}
+body {
+	background: linear-gradient(50deg, #e7e7e7, #c1c1c1);
+}
+.logo {
+	font-family: Akronim;
+	font-weight: bold;
+	color: #292929;
+}
+#row-bar {
+	font-family: Patua One;
+	font-weight: 700;
+}
+#row-bar a:hover {
+	color: #bfbf00;
+	text-shadow: #525252 1px 1px 0;
+	background: #424242;
+	border-radius: 25px;
+	border: 1px solid #525252;
+	font-weight: 700;
+	text-decoration: none;
+}
+.btn-group {
+	font-family: Patua One;
+	font-weight: bold;
+}
+.first-but {
+	font-family: Patua One;
+	font-weight: 700;
+	color: black;
+	padding: 3px 0;
+	border: 1px solid black;
+	box-shadow:
+   	inset 0 0 3px 1px rgba(0,0,0,.8),
+   	inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+   	inset rgba(255,255,255,.5) 5px 5px 8px 5px,
+   	1px 1px 1px rgba(255,255,255,.1),
+   	-2px -2px 5px rgba(0,0,0,.5);
+  	transition: .2s;	
+}
+.first-but:hover {
+	color: black;
+	font-style: italic;
+	background: #dbdb37;
+	border: 1px solid #525252;
+}
+.second-but {
+	font-family: Patua One;
+	font-weight: 700;
+	color: black;
+	padding: 5px 0;
+	border: 1px solid black;
+	box-shadow:
+   	inset 0 0 3px 1px rgba(0,0,0,.8),
+   	inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+   	inset rgba(255,255,255,.5) 5px 5px 8px 5px,
+   	1px 1px 1px rgba(255,255,255,.1),
+   	-2px -2px 5px rgba(0,0,0,.5);
+  	transition: .2s;
+}
+.second-but:hover {
+	color: black;
+	font-style: italic;
+	background: #dbdb37;
+	border: 1px solid #525252;
+}
+.toggle-button {
+	font-weight: bold;
+	color: black;
+	font-family: Patua One, serif;
+	background: #989898;
+	border-radius: 18px;
+}
+.border-row {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: 400;
+	color: #292929;
+	word-spacing: 8px;
+}
+.owl-nav button.owl-next {
+	position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.owl-nav button.owl-prev {
+	position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+#carousel1 {
+	border-top: 2px solid #525252;
+}
+#carousel1 img{
+	border-bottom: 2px solid #525252;
+}
+#prev-course h3 {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: 400;
+	text-shadow: #525252 2px 1px 2px;
+	color: #292929;
+	text-align: center;
+	word-spacing: 8px;
+}
+.row-prev-course {
+	border-top: 2px solid #525252;
+}
+#course {
+	background: radial-gradient(ellipse farthest-corner, #a9a9a9 10%, #292929 90%);
+	font-weight: bold;
+	text-align: center;
+}
+#course h3:hover {
+	border: 2px solid #000;
+	font-style: italic;
+	background: radial-gradient(ellipse farthest-corner, #a9a9a9 10%, #525252 90%);
+	color: #3e1010;
+	cursor: default;
+}
+#new-row {
+	border-top: 2px solid #525252;
+	border-bottom: 2px solid #525252;
+	text-align: center;
+	margin: 25px 0;
+}
+#portfolio {
+	margin: 25px 0;
+	text-align: center;
+}
+.portfolio-fon {
+	background: linear-gradient(#242424, #6c6c6c);
+	border-radius: 50px;
+	padding-bottom: 40px;
+}
+#new-row {
+	text-align: center;
+	margin-bottom: 0;
+	background: linear-gradient(#242424, #6c6c6c);
+}
+.new-text {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+	color: #a8a8a8;
+	text-shadow: black 2px 1px 0;
+}
+.text-color {
+	color: #5e5e5e;
+	text-shadow: black 2px 1px 0;
+}
+.text {
+	color: #d7d7d7;
+	font-weight: bold;
+	text-shadow: black 3px 2px 0;
+}
+.prof {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+	color: #292929;
+	padding: 0;
+	margin: 0;
+}
+.name {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+	color: #3e1010;
+	padding: 0;
+}
+.color-text {
+	font-style: italic;
+	font-weight: bold;
+    word-spacing: 8px;
+    color: #484848;
+    text-shadow: #8f8f8f 2px 1px 0;
+}
+#team {
+	text-align: center;
+}
+#team img{
+	border: 2px solid #525252;
+	text-align: center;
+}
+#portfolio img {
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+}
+.portfolio-fon {
+	text-align: center;
+}
+.border-portfolio-1 img {
+	border: 2px solid #39434c;
+}
+.border-portfolio-1 img:hover {
+	opacity: 50%;
+}
+.border-portfolio-2 img {
+	border: 2px solid #3f6612;
+}
+.border-portfolio-2 img:hover {
+	opacity: 50%;
+}
+.border-portfolio-3 img {
+	border: 2px solid #b6eaff;
+}
+.border-portfolio-3 img:hover {
+	opacity: 50%;
+}
+.review-h {
+	text-align: center;
+}
+.review-blockquote {
+  position: relative;
+  text-align: center;
+  margin: 12px 12px 30px 23%;
+  border: 4px solid #535353;
+  border-radius: 18px;
+  padding: 0px 24px;
+  padding-top: 20px;
+  font-size: 17px;
+  text-align: center;
+  max-width: 600px;
+  color: black;
+  font-weight: 500;
+  font-family: Georgia, serif;
+  font-style: italic;
+  background: linear-gradient(#7d7d7d, #b3b3b3, #d4d4d4, white);
+}
+.review-blockquote:before,
+.review-blockquote:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.review-blockquote:before {
+  left: 30px;
+  bottom: -32px;
+  border: 16px solid #535353;
+  border-color: #535353 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #535353;
+}
+.review-blockquote:after {
+  left: 35px;
+  bottom: -21px;
+  border: 12px solid #535353;
+  border-color: #fff transparent transparent #fff;
+}
+.review-blockquote cite {
+  position: absolute;
+  bottom: -35px;
+  left: 62px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #494949;
+}
+#first {
+	border-radius: 100px 15px;
+	border: 2px solid #39434c;
+	background: #7e7e7e;
+}
+#second {
+	border-radius: 50%;
+}
+.blockquote-inside {
+	color: #e1e1e1;
+	font-family: Georgia, serif;
+  	font-style: italic;
+  	line-height: 1.5em;
+}
+.review-blockquote img {
+	padding-right: 10px;
+}
+.color-col {
+	background: linear-gradient(#9e9e9e, #242424);
+	border-radius: 50px;
+}
+#triangle {
+	border-radius: 30px;
+}
+.color-review {
+	color: #e1e1e1;
+	text-shadow: black 1px 1px 0;
+	font-family: Georgia, serif;
+	font-weight: 600;
+}
+#border {
+	border: 2px solid #39434c;
+}
+#border p {
+	border-left: 2px solid #39434c;
+	padding-left: 15px;
+	font-family: Georgia, serif;
+	font-weight: 600;
+	color: #2b2b2b;
+	font-style: italic;
+}
+#photo-cat {
+	border: 3px solid #39434c;
+	border-radius: 50px 15px;
+}
+#footer {
+	background: linear-gradient(50deg, #e7e7e7, #c1c1c1, #c5c5c5);
+	text-align: center;
+}
+#img-footer {
+	background: #c1c1c1;
+	background-image: url(images/new.png);
+	background-blend-mode: screen;
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#image-footer {
+	background: #c1c1c1;
+	background-image: url(images/new-2.png);
+	background-blend-mode: screen;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: left;
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+.text-footer {
+	color: black;
+	font-family: Georgia;
+	font-weight: 500;
+}
+#footer h4 {
+	font-family: Georgia;
+	font-weight: 700;
+	color: #323232;
+	font-weight: 600;
+	font-style: italic;
+	text-align: center;
+}
+iframe {
+	position: relative;
+	left: 0;
+	border: 2px solid #656565;
+}
+#footer-after {
+	background: #323232;
+	color: #c9c9c9;
+	text-align: center;
+	padding: 10px;
+	font-family: Georgia;
+	font-weight: 500;
+}
+.but-footer {
+	font-family: Georgia;
+	position: relative;
+	font-weight: 700;
+	background: #dbdb37;
+	color: black;
+	text-align: center;
+	padding: 3px 0;
+	border: 1px solid black;
+	box-shadow:
+   	inset 0 0 3px 1px rgba(0,0,0,.8),
+   	inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+   	inset rgba(255,255,255,.5) 5px 5px 8px 5px,
+   	1px 1px 1px rgba(255,255,255,.1),
+   	-2px -2px 5px rgba(0,0,0,.5);
+  	transition: .2s;
+  	border-radius: 20px;	
+}
+.but-footer:hover {
+	color: black;
+	font-style: italic;
+	background: white;
+	border: 1px solid #525252;
+}
+.fa-img {
+	color: #808000;
+}
+.fa-row p {
+	text-align: left;
+	padding-left: 0;
+}
+.p-text {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: 600;
+	color: #3c4147;
+}
+.contact {
+	font-family: Georgia;
+	color: #323232;
+	font-weight: 600;
+}
+input {
+  height: 20px;
+}
+i.fa {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: -26px;
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+i.fa + input {
+  padding-left: 26px;
+}
+#footer label {
+	position: relative;
+	left: -50px;
+	top: -30px;
+}
+#footer input {
+	font-family: Georgia;
+	border: 1px solid #525252;
+}
+#basic-addon2 {
+	font-family: Georgia;
+	border: 1px solid #525252;
+}
